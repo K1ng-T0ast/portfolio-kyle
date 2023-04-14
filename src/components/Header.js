@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Switch from "@brookr/react-switch";
 import Nav from 'react-bootstrap/Nav'
+import Typical from "react-typical"
 import { LinkContainer } from "react-router-bootstrap";
 
 class Header extends Component {
@@ -28,11 +29,13 @@ class Header extends Component {
   render() {
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
-      this.titles = this.props.sharedData.titles; //...map(x => [ x.toUpperCase(), 1500 ] ).flat();
+      var headline = this.props.sharedData.headline;
+      this.titles = this.props.sharedData.titles
+      .map(x => [x.toUpperCase(), 1500]).flat();
     }
 
-    const HeaderTitleTypeAnimation = React.memo( () => {
-      return this.titles
+    const HeaderTitleTypeAnimation = React.memo(() => {
+      return <Typical className="title-styles" steps={this.titles} loop={50} />
     }, (props, prevProp) => true);
 
     return (
@@ -45,18 +48,18 @@ class Header extends Component {
           </svg>
         </a>
         <Nav activeKey="/home" fill style={{ position: 'absolute', top: 10, right: 10 }}>
-          <Nav.Item> 
+          <Nav.Item>
             <LinkContainer to="/">
               <Nav.Link href="/">Home</Nav.Link>
             </LinkContainer>
           </Nav.Item>
-          <Nav.Item>        
+          <Nav.Item>
             <LinkContainer to="/about">
               <Nav.Link eventKey="about">About</Nav.Link>
             </LinkContainer>
           </Nav.Item>
           <Nav.Item>
-            <Switch 
+            <Switch
               checked={this.state.checked}
               onChange={this.onThemeSwitchChange}
               offColor="#baaa80"
@@ -98,18 +101,21 @@ class Header extends Component {
             />
           </Nav.Item>
         </Nav>
-        <div className="row aligner" style={{height: '100%'}}>
+        <div className="row aligner" style={{ height: '100%' }}>
           <div className="col-md-12">
             <div>
               <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
-              <br/>
+              <br />
               <h1 className="mb-0">
-                {name}
+                <Typical steps={[name]} wrapper="p" />
               </h1>
+              <h2 className="headline" >
+                {headline}
+              </h2>
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
-              
+
             </div>
           </div>
         </div>

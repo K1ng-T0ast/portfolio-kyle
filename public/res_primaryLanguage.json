@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Kyle White. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Code Fellows. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Hello",
+      "description": "👋 I'm Kyle. Before starting a software development learning path at Code Fellows Academy, I was in project management and sales enablement support for a fortune 500 company. Now, I'm a software developer currently working with newest front-end frameworks like React. I love to be surrounded with like minded critical thinkers and problem solvers to approach new challenges with tenacity and resilience, with a chance to create something that helps everyday people. My prior experience working with the direct public, high profile clientele, and cross functional orgs help to give me a deeper understanding of problem domains on a broader scope. Thanks for dropping by!",
       "section_name": {
         "about": "About me",
         "projects": "Projects",

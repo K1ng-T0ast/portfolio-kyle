@@ -1,17 +1,18 @@
 {
     "basic_info": {
-      "name": "",
-      "titles": [ "Software Developer" ],
+      "name": "Kyle White",
+      "headline": "Software Developer",
+      "titles": [ "Project Manager", "Sound Engineer", "Photographer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/K1ng-T0ast",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/kylewhiteseattle/",
+          "class": "fab fa-linkedin"
         }
       ],
       "image": "myProfile.jpg"
