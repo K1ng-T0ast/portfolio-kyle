@@ -1,3 +1,3 @@
 # Modify this portfolio
 
-Make it your own! 
+Netlify URL: https://kyle-white-portfolio.netlify.app/
