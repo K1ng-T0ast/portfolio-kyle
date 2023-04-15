@@ -1,6 +1,6 @@
 # Modify this portfolio
 
-Netlify URL: https://kyle-white-portfolio.netlify.app/
+*Netlify URL: https://kyle-white-portfolio.netlify.app/*
 
 
 ## Lab 05 Time Estimates
