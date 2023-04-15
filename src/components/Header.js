@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Switch from "@brookr/react-switch";
 import Nav from 'react-bootstrap/Nav'
-import Typical from "react-typical"
+// import Typical from "react-typical"
 import { LinkContainer } from "react-router-bootstrap";
 
 class Header extends Component {
@@ -30,12 +30,12 @@ class Header extends Component {
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
       var headline = this.props.sharedData.headline;
-      this.titles = this.props.sharedData.titles
-      .map(x => [x.toUpperCase(), 1500]).flat();
+      this.titles = this.props.sharedData.titles;
+      // .map(x => [x.toUpperCase(), 1500]).flat();
     }
 
     const HeaderTitleTypeAnimation = React.memo(() => {
-      return <Typical className="title-styles" steps={this.titles} loop={50} />
+      // return <Typical className="title-styles" steps={this.titles} loop={50} />
     }, (props, prevProp) => true);
 
     return (
@@ -107,7 +107,8 @@ class Header extends Component {
               <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
               <br />
               <h1 className="mb-0">
-                <Typical steps={[name]} wrapper="p" />
+                {/* <Typical steps={[name]} wrapper="p" /> */}
+                {name}
               </h1>
               <h2 className="headline" >
                 {headline}
