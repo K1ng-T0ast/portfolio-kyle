@@ -42,24 +42,24 @@ Actual time needed to complete: 32min
 
 Number and name of feature: Skills and Experience Section
 
-Estimate of time needed to complete: 30min
+Estimate of time needed to complete: 20min
 
 Start time: 4:20pm
 
-Finish time: 12:05pm
+Finish time: 4:45pm
 
-Actual time needed to complete: 20min
+Actual time needed to complete: 25min
 
 ########################################################################
 
-Number and name of feature: Clone Template and Deployment
+Number and name of feature: Personalize
 
-Estimate of time needed to complete: 20min
+Estimate of time needed to complete: 25min
 
-Start time: 11:45am
+Start time: 4:50pm
 
-Finish time: 12:05pm
+Finish time: 5:21pm
 
-Actual time needed to complete: 20min
+Actual time needed to complete: 31min
 
 ########################################################################
