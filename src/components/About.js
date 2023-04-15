@@ -3,6 +3,7 @@ import { Icon } from "@iconify/react";
 import firebaseIcon from "@iconify/icons-logos/firebase";
 import reactIcon from "@iconify/icons-logos/react";
 import pythonIcon from "@iconify/icons-logos/python";
+import backgroundImage from "../assets/space.jpg"
 
 class About extends Component {
   render() {
@@ -16,7 +17,7 @@ class About extends Component {
     }
 
     return (
-      <section id="about">
+      <section id="about" style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="col-md-12">
           <h1 style={{ color: "black" }}>
             <span>{sectionName}</span>
