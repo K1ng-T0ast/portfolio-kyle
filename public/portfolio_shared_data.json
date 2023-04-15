@@ -20,23 +20,23 @@
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
+          "name": "React",
+          "class": "devicon-react-plain",
           "level": "95"
         },
         {
-          "name": "CSS 3",
+          "name": "NODE.js",
+          "class": "devicon-nodejs-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS3",
           "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
           "level": "80"
         },
         {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
+          "name": "Github",
+          "class": "devicon-github-plain",
           "level": "90"
         },
         {
@@ -45,13 +45,13 @@
           "level": "70"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
+          "name": "Python",
+          "class": "devicon-python-plain",
           "level": "75"
         },
         {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
+          "name": "jQuery",
+          "class": "devicon-jquery-plain",
           "level": "85"
         },
         {
@@ -60,8 +60,8 @@
           "level": "65"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
           "level": "60"
         }
       ]

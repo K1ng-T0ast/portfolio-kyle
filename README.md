@@ -18,33 +18,33 @@ Actual time needed to complete: 20min
 
 Number and name of feature: About Me Page
 
-Estimate of time needed to complete: 30min
+Estimate of time needed to complete: 40min
 
 Start time: 3pm
 
-Finish time: 
+Finish time: 3:48pm
 
-Actual time needed to complete: 
-
-########################################################################
-
-Number and name of feature: Clone Template and Deployment
-
-Estimate of time needed to complete: 20min
-
-Start time: 11:45am
-
-Finish time: 12:05pm
-
-Actual time needed to complete: 20min
+Actual time needed to complete: 48min
 
 ########################################################################
 
-Number and name of feature: Clone Template and Deployment
+Number and name of feature: Projects Section
 
-Estimate of time needed to complete: 20min
+Estimate of time needed to complete: 30min
 
-Start time: 11:45am
+Start time: 3:45pm
+
+Finish time: 4:17pm
+
+Actual time needed to complete: 32min
+
+########################################################################
+
+Number and name of feature: Skills and Experience Section
+
+Estimate of time needed to complete: 30min
+
+Start time: 4:20pm
 
 Finish time: 12:05pm
 
