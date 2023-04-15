@@ -11,33 +11,33 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Byte Size Adventurez",
+        "startDate": "2023",
+        "description": "First major production application using pure JavaScript, CSS, and HTML. Fully conceptualized, built, polished, and deployed in 4 days with a team of 3 other software developer students. An app dedicated to pre-k kids and their parents to encourage STEAM learning in an ad-free environment. An amazing learning experience.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/kids-app/p1.jpg",
+          "images/portfolio/kids-app/p2.jpg"
         ],
-        "url": "",
+        "url": "https://github.com/code201d98-Team1/ByteSizeAdventurez",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-css3-plain",
+            "name": "CSS"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-html5-plain",
+            "name": "HTML"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Future 301 Project",
+        "startDate": "2023",
+        "description": "Here's a placeholder for the 301 final project of the Code Fellows 301, Intermediate Software Development, April 2023 class.",
         "images": [
           "images/portfolio/photography/p1.jpg",
           "images/portfolio/photography/p2.jpg"
@@ -51,6 +51,10 @@
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
           }
         ]
       },
@@ -81,37 +85,31 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Code Fellows Academy",
+        "title": "Software Development Student",
+        "years": "02.2023 - Present",
         "mainTech": [
-          "Angular 8/9/10"
+          "React"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "JavaScript",
+          "CSS3",
+          "HTML5"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "T-Mobile USA, Inc.",
+        "title": "Customer Experience Manager",
+        "years": "06.2011 - 04.2022",
         "mainTech": [
-          "Angular 7/8"
+          "Salesforce"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Zendesk",
+          "Jira Align",
+          "Okta Identity Cloud",
+          "Microsoft Power BI"
         ]
       }
     ]

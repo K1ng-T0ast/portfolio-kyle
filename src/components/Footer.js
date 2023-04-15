@@ -20,7 +20,7 @@ class Footer extends Component {
           <div className="row">
             <div className="col social-links">{networks}</div>
             <div className="col">
-              <div 
+              {/* <div 
                 onClick={() =>
                   this.props.applyPickedLanguage(
                     window.$primaryLanguage,
@@ -51,7 +51,7 @@ class Footer extends Component {
                   data-inline="false"
                   id={window.$secondaryLanguageIconId}
                 ></span>
-              </div>
+              </div> */}
             </div>
             <div className="col">
               <div className="copyright py-4 text-center">
@@ -59,7 +59,7 @@ class Footer extends Component {
                   <small>
                     Copyright &copy;{" "}
                     {this.props.sharedBasicInfo
-                      ? this.props.sharedBasicInfo.name
+                      ? this.props.sharedBasicInfo.name + " | 2023"
                       : "???"}
                   </small>
                 </div>
